@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/test"/>
+    <Button
+        android:id="@+id/start_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Service"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/image_view"/>
+    <Button
+        android:id="@+id/stop_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Service"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/start_service" />
+    <Button
+        android:id="@+id/view_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Result"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/stop_service" />
+
+</RelativeLayout >
