@@ -80,7 +80,7 @@ dependencies {
 
 chaquopy {
     defaultConfig {
-        buildPython("C:/Users/nguye/venv/Scripts/python.exe")
+        buildPython("path/to/your/venv/Scripts/python.exe")
         pip {
 //            install ("numpy")
 //            install "pillow"
